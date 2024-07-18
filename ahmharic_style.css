@@ -1,0 +1,141 @@
+body {
+    margin: 0 2%;
+    font-family: arial;
+    background-image: url(amharic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navbar{
+    padding-left: 10px;
+    overflow: hidden;
+    background: black;
+
+}
+.logo{
+    background: rgb(0,0,0,0.3);
+    width:100%;
+    color: orangered;
+    text-align: center;
+
+}
+.logo h1{
+    padding-top: 10px;
+    margin: 0;
+    font-weight: 900;
+    line-height: 50px;  
+}
+.navbar a{
+    float: left;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0,4s ease-in-out;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+
+}
+
+.dropdown .dropdownbtn{
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: wheat;
+    padding: 14px 16px;
+    background-color: inherit;
+    
+
+}
+.dropdown-list{
+    display: none;
+    position: absolute;
+    background-color:  rgba(0, 0,0,0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+
+}
+.dropdown-list a{
+    float: none;
+    color: aqua;
+    padding: 12px 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.navbar a:hover, .dropdown:hover .dropdown-list a:hover .dropdownbtn{
+    border-bottom: 1px solid aquamarine;
+    border-radius: 10x;
+    color: orangered;
+
+
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+
+
+#m{
+    color: aqua;
+    font-family: arial;
+    color: white;
+}
+.about-T{
+    color:powderblue;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    background: wheat;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
